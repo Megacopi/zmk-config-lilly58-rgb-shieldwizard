@@ -13,6 +13,7 @@
 
 &physical_layout_lilly58 {
     kscan = <&kscan0>;
+    transform = <&matrix_transform0>;
 };
 
 &left_encoder {
