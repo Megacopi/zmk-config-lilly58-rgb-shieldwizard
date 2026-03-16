@@ -29,6 +29,6 @@
     kscan = <&kscan0>;
 };
 
-&encoder_left {
+&left_encoder {
     status = "okay";
 };

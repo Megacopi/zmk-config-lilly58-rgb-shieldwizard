@@ -33,6 +33,6 @@
     kscan = <&kscan0>;
 };
 
-&encoder_right {
+&right_encoder {
     status = "okay";
 };
