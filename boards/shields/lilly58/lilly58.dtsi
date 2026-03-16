@@ -5,7 +5,7 @@
 / {
     chosen {
         zmk,kscan = &kscan0;
-        zmk,physical-layout = &layout_0;
+        zmk,physical-layout = &physical_layout_lilly58;
         zephyr,display = &nice_view;
         zmk,underglow = &led_strip;
     };
