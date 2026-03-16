@@ -7,6 +7,7 @@
         zmk,kscan = &kscan0;
         zmk,physical-layout = &layout_0;
         zephyr,display = &nice_view;
+        zmk,underglow = &led_strip;
     };
 
     default_transform: keymap_transform_0 {
@@ -122,15 +123,9 @@ RC(3,0) RC(3,1) RC(3,2) RC(3,3) RC(3,4) RC(3,5) RC(4,5) RC(4,6) RC(3,6) RC(3,7) 
         label = "WS2812";
         reg = <0>;
         spi-max-frequency = <4000000>;
-        chain-length = <36>;
+        chain-length = <29>;
         spi-one-frame = <0x70>;
         spi-zero-frame = <0x40>;
         color-mapping = <LED_COLOR_ID_GREEN LED_COLOR_ID_RED LED_COLOR_ID_BLUE>;
-    };
-};
-
-/ {
-    chosen {
-        zmk,underglow = &led_strip;
     };
 };
