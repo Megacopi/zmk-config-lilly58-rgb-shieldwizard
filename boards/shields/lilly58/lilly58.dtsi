@@ -10,7 +10,7 @@
         zmk,underglow = &led_strip;
     };
 
-    default_transform: keymap_transform_0 {
+    matrix_transform0: matrix_transform0 {
         compatible = "zmk,matrix-transform";
         columns = <16>;
         rows = <5>;
