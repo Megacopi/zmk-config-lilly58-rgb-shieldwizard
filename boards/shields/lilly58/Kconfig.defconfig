@@ -1,6 +1,5 @@
 if SHIELD_LILLY58_LEFT
 
-# Name must be less than 16 characters long!
 config ZMK_KEYBOARD_NAME
     default "Lilly58"
 
@@ -8,29 +7,19 @@ config ZMK_SPLIT_ROLE_CENTRAL
     default y
 
 config ZMK_SPLIT_BLE_CENTRAL_PERIPHERALS
-  default 1
+    default 1
 
 config BT_MAX_CONN
-  default 6
+    default 6
 
 config BT_MAX_PAIRED
-  default 6
+    default 6
 
 endif
 
 if SHIELD_LILLY58_LEFT || SHIELD_LILLY58_RIGHT
 
 config ZMK_SPLIT
-    default y
-
-endif
-
-# ---------------------
-# Kconfig for shield "macropad3x3" with board "nice_nano_v2"
-# ---------------------
-if BOARD_NICE_NANO_V2 && SHIELD_LILLY58
-
-config SPI
     default y
 
 endif
