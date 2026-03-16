@@ -24,3 +24,13 @@ config ZMK_SPLIT
     default y
 
 endif
+
+# ---------------------
+# Kconfig for shield "macropad3x3" with board "nice_nano_v2"
+# ---------------------
+if BOARD_NICE_NANO_V2 && SHIELD_LILLY58
+
+config SPI
+    default y
+
+endif
