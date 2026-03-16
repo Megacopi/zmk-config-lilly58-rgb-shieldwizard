@@ -25,7 +25,7 @@
     };
 };
 
-&keymap_transform_0 {
+&matrix_transform0 {
     col-offset = <6>;
 };
 
