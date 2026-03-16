@@ -21,7 +21,7 @@
 include:
 
   - board: nice_nano_v2
-    shield: lilly58_left nice_view
+    shield: lilly58_left #nice_view
 
 ## To build with ZMK Studio support, uncomment the following block
 ## by removing the leading '#' from each line.
@@ -33,7 +33,7 @@ include:
 #    artifact-name: lilly58_left_with_studio
 
   - board: nice_nano_v2
-    shield: lilly58_right nice_view
+    shield: lilly58_right #nice_view
 
   - board: nice_nano_v2
     shield: settings_reset 
